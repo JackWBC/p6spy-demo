@@ -16,6 +16,7 @@ import java.util.List;
 @Table(name = "t_order")
 @Builder
 @Data
+@EqualsAndHashCode(callSuper = true)
 @ToString(callSuper = true)
 @NoArgsConstructor
 @AllArgsConstructor

@@ -16,6 +16,7 @@ import java.io.Serializable;
 @Entity
 @Table(name = "t_coffee")
 @Data
+@EqualsAndHashCode(callSuper = true)
 @ToString(callSuper = true)
 @Builder
 @NoArgsConstructor
